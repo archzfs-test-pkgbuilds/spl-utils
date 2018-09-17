@@ -18,7 +18,7 @@ groups=("archzfs-linux")
 license=("GPL")
 provides=("spl-utils")
 makedepends=()
-conflicts=('spl-utils-common-git' 'spl-utils-linux-git' 'spl-utils-linux' 'spl-utils-linux-lts' 'spl-utils-linux-lts-git')
+conflicts=("spl-utils")
 replaces=("spl-utils-linux", "spl-utils-linux-lts")
 
 build() {
