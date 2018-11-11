@@ -5,7 +5,7 @@
 #
 # http://github.com/archzfs/archzfs
 #
-pkgname="spl-utils-common"
+pkgname="spl-utils"
 
 pkgver=0.7.11
 pkgrel=1
@@ -19,7 +19,7 @@ license=("GPL")
 provides=("spl-utils")
 makedepends=()
 conflicts=("spl-utils")
-replaces=("spl-utils-linux", "spl-utils-linux-lts")
+replaces=("spl-utils-linux", "spl-utils-linux-lts" "spl-utils-common")
 
 build() {
     cd "${srcdir}/spl-${pkgver}"
